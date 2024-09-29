@@ -57,7 +57,7 @@ newmail.To = 'randomemail@gmail.ie'
 newmail.Body = "Test 1"
 
 # Put in double slashes as the code won't take the attachment (unicode error).
-attach = "C:\\Users\\tmrom\\OneDrive\\Desktop\\Python\\UCC timesheet automated\\Hourly Timesheet.docx"
+attach = "C:\\Users\\user1\\OneDrive\\Desktop\\Python\\UCC timesheet automated\\Hourly Timesheet.docx"
 newmail.Attachments.Add(attach)
 
 # newmail.Send()
