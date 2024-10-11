@@ -2,9 +2,22 @@ from docxtpl import DocxTemplate
 from datetime import datetime
 import win32com.client
 
-doc = DocxTemplate("Hourly Timesheet template.docx")
+doc = DocxTemplate(r"C:\Users\tmrom\OneDrive\Desktop\Hourly Timesheet\UCC timesheet automated (personal use)\Hourly Timesheet template.docx")
 
-two_months = input("Enter the two months that you have worked: ")
+two_months = input("Enter the two months that you have worked i.e. Jan-Feb 2024: ")
+
+# Keeps asking user to enter the two months they have worked.
+while two_months == "":
+    print("Can't leave it blank")
+    two_months = input("Enter the two months that you have worked in the format Jan-Feb 2024: ")
+
+
+week_one_date = input("Enter date for week 1: ")
+week_two_date = input("Enter date for week 2: ")
+week_three_date = input("Enter date for week 3: ")
+week_four_date = input("Enter date for week 4: ")
+week_five_date = input("Enter date for week 5: ")
+
 
 week_one = int(input("Enter number of hours worked for week 1: "))
 week_two = int(input("Enter number of hours worked for week 2: "))
