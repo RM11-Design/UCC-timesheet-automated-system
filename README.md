@@ -1,4 +1,4 @@
-During my part-time role as a Student Help at a research center in University College Cork (UCC), I was responsible for manually submitting an hourly timesheet at the end of each month. This timesheet tracked the total hours I worked over the course of two months. The process required me to manually calculate the hours, compute my salary, and then email the details to HR. While this may sound straightforward, it was a time-consuming and repetitive task that left room for human error.
+While working part-time, my hours varied each week, I had to manually fill in my dates and hours and calculate my salary. I’d send my timesheet to HR, only to get a reply saying I miscalculated my pay or forgotten to add my cost code.
 
 Recognizing the inefficiency, I decided to automate the entire process using Python. I developed a Python script that automatically calculates the total hours I worked, computes my salary based on predefined rates, and generates a neatly formatted report. The script then outputs this data in a format that is ready to send to HR, drastically reducing the time spent on this task and eliminating errors in calculation.
 
