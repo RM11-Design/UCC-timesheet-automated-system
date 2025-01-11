@@ -7,7 +7,7 @@ The automation not only streamlined my workflow but also ensured consistency and
 Technologies used:
 
 Python (for logic and calculations)
-Microsoft Outlook API (to automate email submission)
+Win32.client (to connect and automate email submission)
 DocxTemplate (for generating formatted reports)
 
 This project has been an excellent opportunity for me to apply programming skills to solve a real-world problem, showcasing the power of automation in everyday tasks.
